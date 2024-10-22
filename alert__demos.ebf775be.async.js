@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_ui=self.webpackChunkreact_ui||[]).push([[819],{70621:function(_,n,u){u.r(n);var a=u(67294),t=u(70208),D=u(86169),E=u(85893);n.default=function(){return(0,E.jsx)(t.default,{kind:"warning",children:"\u8FD9\u662F\u4E00\u6761\u8B66\u544A\u63D0\u793A"})}}}]);
