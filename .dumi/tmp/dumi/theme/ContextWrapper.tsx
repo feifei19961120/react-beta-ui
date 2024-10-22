@@ -3,8 +3,8 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useState, useEffect, useRef } from 'react';
 import { useOutlet, history } from 'dumi';
-import { warning } from '/Users/zhoukeji/Desktop/React-UI/node_modules/rc-util';
-import { SiteContext, type ISiteContext } from '/Users/zhoukeji/Desktop/React-UI/node_modules/dumi/dist/client/theme-api/context.js';
+import { warning } from '/Users/zhoukeji/Desktop/react-beta-ui/node_modules/rc-util';
+import { SiteContext, type ISiteContext } from '/Users/zhoukeji/Desktop/react-beta-ui/node_modules/dumi/dist/client/theme-api/context.js';
 import { components } from '../meta/atoms';
 import { locales } from '../locales/config';
 

@@ -8,13 +8,13 @@ export async function getRoutes() {
   return {
     routes,
     routeComponents: {
-'404': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__404" */'/Users/zhoukeji/Desktop/React-UI/node_modules/dumi/dist/client/pages/404.js')),
-'dumi-context-layout': React.lazy(() => import(/* webpackChunkName: "dumi__tmp__dumi__theme__ContextWrapper" */'/Users/zhoukeji/Desktop/React-UI/.dumi/tmp/dumi/theme/ContextWrapper')),
-'DocLayout': React.lazy(() => import(/* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */'/Users/zhoukeji/Desktop/React-UI/node_modules/dumi/theme-default/layouts/DocLayout/index.js')),
-'docs/getting-started': React.lazy(() => import(/* webpackChunkName: "docs__getting-started.md" */'/Users/zhoukeji/Desktop/React-UI/docs/getting-started.md')),
-'docs/index': React.lazy(() => import(/* webpackChunkName: "docs__index.md" */'/Users/zhoukeji/Desktop/React-UI/docs/index.md')),
-'components/alert/index': React.lazy(() => import(/* webpackChunkName: "alert__index.md" */'/Users/zhoukeji/Desktop/React-UI/src/alert/index.md')),
-'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'/Users/zhoukeji/Desktop/React-UI/node_modules/dumi/dist/client/pages/Demo/index.js')),
+'404': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__404" */'/Users/zhoukeji/Desktop/react-beta-ui/node_modules/dumi/dist/client/pages/404.js')),
+'dumi-context-layout': React.lazy(() => import(/* webpackChunkName: "dumi__tmp__dumi__theme__ContextWrapper" */'/Users/zhoukeji/Desktop/react-beta-ui/.dumi/tmp/dumi/theme/ContextWrapper')),
+'DocLayout': React.lazy(() => import(/* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */'/Users/zhoukeji/Desktop/react-beta-ui/node_modules/dumi/theme-default/layouts/DocLayout/index.js')),
+'docs/getting-started': React.lazy(() => import(/* webpackChunkName: "docs__getting-started.md" */'/Users/zhoukeji/Desktop/react-beta-ui/docs/getting-started.md')),
+'docs/index': React.lazy(() => import(/* webpackChunkName: "docs__index.md" */'/Users/zhoukeji/Desktop/react-beta-ui/docs/index.md')),
+'components/alert/index': React.lazy(() => import(/* webpackChunkName: "alert__index.md" */'/Users/zhoukeji/Desktop/react-beta-ui/src/alert/index.md')),
+'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'/Users/zhoukeji/Desktop/react-beta-ui/node_modules/dumi/dist/client/pages/Demo/index.js')),
 },
   };
 }

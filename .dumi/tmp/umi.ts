@@ -3,8 +3,8 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 import { getPluginManager as getDumiPluginManager } from './core/plugin';
-import { setPluginManager as setDumiPluginManager } from '/Users/zhoukeji/Desktop/React-UI/node_modules/dumi/dist/client/theme-api/utils.js';
-import { renderClient } from '/Users/zhoukeji/Desktop/React-UI/node_modules/@umijs/renderer-react';
+import { setPluginManager as setDumiPluginManager } from '/Users/zhoukeji/Desktop/react-beta-ui/node_modules/dumi/dist/client/theme-api/utils.js';
+import { renderClient } from '/Users/zhoukeji/Desktop/react-beta-ui/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
 import { createHistory } from './core/history';
