@@ -1,0 +1,58 @@
+{
+  "name": "react-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dumi dev",
+    "build:site": "rimraf doc-site && dumi build",
+    "preview:site": "npm run build:site && serve doc-site",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@umijs/fabric": "^4.0.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "dumi": "^2.4.13",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "serve": "^14.2.4",
+    "typescript": "^5.6.3"
+  },
+  "lint-staged": {
+    "src/**/*.ts?(x)": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "src/**/*.less": [
+      "stylelint --syntax less --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  }
+}
